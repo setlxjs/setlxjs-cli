@@ -1,0 +1,28 @@
+{
+  "name": "setlxjs-cli",
+  "version": "0.1.0",
+  "description": "A command line interface for setlx.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setlxjs/setlxjs-cli.git"
+  },
+  "keywords": [
+    "setlx",
+    "setlxjs"
+  ],
+  "author": "hendrikniemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/setlxjs/setlxjs-cli/issues"
+  },
+  "homepage": "https://github.com/setlxjs/setlxjs-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "setlxjs": "git+https://github.com/setlxjs/setlxjs-transpiler.git",
+    "setlxjs-transpiler": "git+https://github.com/setlxjs/setlxjs-transpiler.git"
+  }
+}
