@@ -24,6 +24,6 @@
     "commander": "^2.9.0"
   },
   "bin": {
-    "setlxjs": "./index.js",
+    "setlxjs": "./index.js"
   }
 }

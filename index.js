@@ -3,11 +3,12 @@
 const program = require('commander');
 const fs = require('fs');
 const path = require('path');
+const version = require('./package.json').version;
 
 const transpiler = require('setlxjs-transpiler');
 
 program
-  .version('0.1.0');
+  .version(version);
 
 program
   .command('tree <expression>')
