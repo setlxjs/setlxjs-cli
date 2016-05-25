@@ -21,8 +21,9 @@
   },
   "homepage": "https://github.com/setlxjs/setlxjs-cli#readme",
   "dependencies": {
-    "commander": "^2.9.0",
-    "setlxjs": "git+https://github.com/setlxjs/setlxjs-transpiler.git",
-    "setlxjs-transpiler": "git+https://github.com/setlxjs/setlxjs-transpiler.git"
+    "commander": "^2.9.0"
+  },
+  "bin": {
+    "setlxjs": "./index.js",
   }
 }
