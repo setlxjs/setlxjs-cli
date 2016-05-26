@@ -52,6 +52,18 @@ program
     }
   });
 
+program
+  .command('run <file>')
+  .action(function(file) {
+    const fileContent = fs.readFileSync(file).toString();
+
+    transpiler(fileContent)
+      .then(function(result) {
+        eval(result);
+      })
+      .catch(console.error.bind(console));
+  });
+
 program.parse(process.argv);
 
 function transpileFile(file, output) {
