@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/setlxjs/setlxjs-cli#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "setlxjs-lib": "^1.0.0",
+    "setlxjs-transpiler": "^1.0.0"
   },
   "bin": {
     "setlxjs": "./index.js"
