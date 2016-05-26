@@ -54,6 +54,7 @@ program
 
 program
   .command('run <file>')
+  .description('Run a SetlX Sourcefile with Node.js')
   .action(function(file) {
     const fileContent = fs.readFileSync(file).toString();
 
